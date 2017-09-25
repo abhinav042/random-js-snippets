@@ -19,5 +19,5 @@ The output for the above code will be
 ```
 { oranges: 23, lemons: 31 }
 ```
-The order of the variables for the input doesn't matter as well, i.e, `const {tomatoes, ...restOfThem, apples} = obj` produces the same output
+The order of the variables for the input doesn't matter as well, i.e, `const {tomatoes, apples, ...restOfThem} = obj` produces the same output. The only caveat is that the rest element has to be the last element when destructuring.
   
